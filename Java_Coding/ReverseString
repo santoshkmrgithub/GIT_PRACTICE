@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 public class ReverseString {
     public static void main(String[] args) {
 
@@ -29,3 +30,5 @@ public class ReverseString {
     return result.toString();
     }
 }
+=======
+>>>>>>> parent of eea0177 (code changed)
