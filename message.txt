@@ -1,0 +1,146 @@
+# Git – Version Control System 🚀
+
+## What is Git?
+
+**Git is a distributed version control system (VCS)** used to track changes in source code and manage different versions of a project.
+
+Git helps developers work together on the same project without overwriting each other's changes. It allows us to create branches, make commits, merge changes, resolve conflicts, and maintain a complete history of the project.
+
+## Why Do We Use Git?
+
+Git is mainly used to:
+
+* Track changes in code
+* Maintain project history
+* Create and manage branches
+* Work on multiple features independently
+* Collaborate with other developers
+* Merge changes from different developers
+* Resolve merge conflicts
+* Revert changes when something goes wrong
+* Work with remote repositories such as GitHub
+
+## Git Basic Workflow
+
+```text
+Working Directory
+       ↓
+    git add
+       ↓
+ Staging Area
+       ↓
+  git commit
+       ↓
+ Local Repository
+       ↓
+   git push
+       ↓
+ Remote Repository
+     (GitHub)
+```
+
+## Important Git Concepts
+
+### 1. Repository
+
+A repository is the place where Git stores the project's files and complete version history.
+
+### 2. Working Directory
+
+The working directory contains the files you are currently working on.
+
+### 3. Staging Area
+
+The staging area contains the changes that you want to include in the next commit.
+
+```bash
+git add .
+```
+
+### 4. Commit
+
+A commit is a snapshot of your changes.
+
+```bash
+git commit -m "Add login feature"
+```
+
+### 5. Branch
+
+A branch allows developers to work on a feature without directly changing the main code.
+
+```bash
+git switch -c feature-login
+```
+
+### 6. Merge
+
+Merge is used to combine changes from one branch into another.
+
+```bash
+git switch main
+git merge feature-login
+```
+
+### 7. Remote Repository
+
+A remote repository is the version of the repository stored on a server such as GitHub.
+
+```bash
+git push
+git pull
+```
+
+## Common Git Commands
+
+```bash
+git init
+git clone
+git status
+git add
+git commit
+git log
+git diff
+git branch
+git switch
+git merge
+git rebase
+git stash
+git fetch
+git pull
+git push
+```
+
+## Git in Real-World Projects
+
+A typical development workflow looks like:
+
+```text
+Developer
+   ↓
+Create Feature Branch
+   ↓
+Write Code
+   ↓
+git add
+   ↓
+git commit
+   ↓
+git push
+   ↓
+Pull Request
+   ↓
+Code Review
+   ↓
+Merge
+   ↓
+Main Branch
+```
+
+Git is an essential tool for modern software development because it makes **version tracking, collaboration, branching, and code management** much easier.
+
+---
+
+### 🎯 Git Practice
+
+This repository is created to practice Git commands and understand how Git is used in real-world software development projects.
