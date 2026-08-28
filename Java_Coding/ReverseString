@@ -10,12 +10,22 @@ public class ReverseString {
 
         // System.out.println(reversed);
 
-        String str = "Hello World";
+        // String str = "Hello World";
 
-        String reversed = new StringBuilder(str)
-                .reverse()
-                .toString();
+        // String reversed = new StringBuilder(str)
+        //         .reverse()
+        //         .toString();
 
-        System.out.println(reversed);
+        // System.out.println(reversed);
+
+    
+
+    StringBuilder result = new StringBuilder();
+
+    for (int i = str.length() - 1; i >= 0; i--) {
+        result.append(str.charAt(i));
+    }
+
+    return result.toString();
     }
 }
