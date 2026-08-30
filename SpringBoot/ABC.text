@@ -1,0 +1,3 @@
+"I will take the input String and start traversing it from the last character to the first character.
+ For each character, I will append it to a new String. Once the loop reaches the first character, 
+ the newly created String will be the reverse of the original String."
