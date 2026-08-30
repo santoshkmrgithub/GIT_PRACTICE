@@ -18,5 +18,22 @@ public class SecondHighest {
 
         // Print HashMap
         System.out.println("Employees: " + employees);
+
+        // =========================
+        // 2nd Highest Salary
+        // =========================
+
+        Optional<Integer> secondHighestSalary =
+                employees.values()
+                        .stream()
+                        .distinct()
+                        .sorted(Comparator.reverseOrder())
+                        .skip(1)
+                        .findFirst();
+
+        System.out.println(
+                "2nd Highest Salary: "
+                        + secondHighestSalary.orElse(0)
+        );
     }
 }
